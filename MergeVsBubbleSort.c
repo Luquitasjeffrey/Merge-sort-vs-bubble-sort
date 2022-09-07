@@ -104,7 +104,6 @@ int main(){
 		
 	}
 	
-	//printarr(arr, 10);
 	clock_t start=clock();
 	bubblesort(&testarr2, arrsize);
 	clock_t end=clock();
@@ -115,7 +114,6 @@ int main(){
 	end=clock();
 	double mtime=((double)(end-start));
 	printf("merge sort time was: %f miliseconds\n\n", mtime);
-	
 	system("pause");
 	return 0;
 }
